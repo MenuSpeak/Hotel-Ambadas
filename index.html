@@ -1257,7 +1257,7 @@ text-decoration:none;
 <button class="tab" data-cat="Soup">🥣 Soup</button>
 <button class="tab" data-cat="Chinese Special">🍜 Chinese Special</button>
 <button class="tab" data-cat="Papd salat">🥗 Papd salat</button>
-<button class="tab" data-cat="Radhika Special Starter">🧆 Radhika Special Starter</button>
+<button class="tab" data-cat="Radhika Special Starter">🧆 Ambadas Special Starter</button>
 <button class="tab" data-cat="Thand Pey">🥤 Thand Pey</button>
 <button class="tab" data-cat="Upvas">🥔 Upvas</button>
 <button class="tab" data-cat="Special Item">✨ Special Item</button>
@@ -1411,28 +1411,44 @@ text-decoration:none;
         const data =
 
         [
+{"id": 19, "cat": "Tea / Coffee", "name": "चाय | Tea", "price": "Rs. 20", "desc": "Hot Tea.", "tags": ["Beverage", "Tea"], "img": "img/tea_morning.jpg"},
+{"id": 20, "cat": "Tea / Coffee", "name": "कॉफी | Coffee", "price": "Rs. 25", "desc": "Hot Coffee.", "tags": ["Beverage", "Coffee"], "img": "img/coffee.jpg"},
+{"id": 21, "cat": "Tea / Coffee", "name": "हॉट मिल्क | Hot Milk", "price": "Rs. 25", "desc": "Hot Milk.", "tags": ["Beverage", "Milk"], "img": "img/hot_milk.jpg"},
 
+{"id": 55, "cat": "Thand Pey", "name": "मसाला ताक | Butter Milk", "price": "Rs. 30", "desc": "Butter Milk.", "tags": ["Beverage", "Cold Drink"], "img": "img/butter_milk.jpg"},
+{"id": 56, "cat": "Thand Pey", "name": "लस्सी | Lassi", "price": "Rs. 30", "desc": "Lassi.", "tags": ["Beverage", "Cold Drink", "Sweet"], "img": "img/lassi.jpg"},
+{"id": 57, "cat": "Thand Pey", "name": "लिंबु पाणी | Lemon Water", "price": "Rs. 25", "desc": "Lemon Water.", "tags": ["Beverage", "Cold Drink"], "img": "img/lemon_water.jpg"},
+{"id": 58, "cat": "Thand Pey", "name": "लिंबु सोडा | Fresh lime Soda", "price": "Rs. 45", "desc": "Fresh lime Soda.", "tags": ["Beverage", "Cold Drink", "Soda"], "img": "img/fresh_lime_soda.jpg"},
+              
+{"id": 37, "cat": "Papd salat", "name": "रोस्टेड पापड | Rosted Papad", "price": "Rs. 30", "desc": "Rosted Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/rosted_papad.jpg"},
+{"id": 38, "cat": "Papd salat", "name": "फ्राय पापड | Fry papad", "price": "Rs. 35", "desc": "Fry papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/fry_papad.jpg"},
+{"id": 39, "cat": "Papd salat", "name": "मसाला पापड | Masala papad", "price": "Rs. 40", "desc": "Masala papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/masala_papad_salat.jpg"},
+{"id": 40, "cat": "Papd salat", "name": "नागिली पापड | Nagili Papad", "price": "Rs. 45", "desc": "Nagili Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/nagili_papad.jpg"},
+{"id": 41, "cat": "Papd salat", "name": "नागिली रोस्टेड पापड | Nagili Rosted Papad", "price": "Rs. 35", "desc": "Nagili Rosted Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/nagili_rosted_papad.jpg"},
+{"id": 42, "cat": "Papd salat", "name": "प्लेन कड | Plain Curd", "price": "Rs. 50", "desc": "Plain Curd.", "tags": ["Veg", "Curd", "Salad"], "img": "img/plain_curd.jpg"},
+{"id": 43, "cat": "Papd salat", "name": "मिक्स रायता | Mix Rayta", "price": "Rs. 60", "desc": "Mix Rayta.", "tags": ["Veg", "Raita", "Salad"], "img": "img/mix_rayta.jpg"},
+{"id": 44, "cat": "Papd salat", "name": "बुंदी रायता | Bundi Rayta", "price": "Rs. 65", "desc": "Bundi Rayta.", "tags": ["Veg", "Raita", "Salad"], "img": "img/bundi_rayta.jpg"},
+{"id": 45, "cat": "Papd salat", "name": "ग्रिन सलाट | Green Salad", "price": "Rs. 30", "desc": "Green Salad.", "tags": ["Veg", "Salad"], "img": "img/green_salad_papd.jpg"},
+
+              
 {"id": 1, "cat": "Good Morning Break fast", "name": "पोहा | Poha", "price": "Rs. 40", "desc": "Poha.", "tags": ["Veg", "Breakfast"], "img": "img/poha.jpg"},
 {"id": 2, "cat": "Good Morning Break fast", "name": "व्हेज पकोडा | Veg Pakoda", "price": "Rs. 90", "desc": "Veg Pakoda.", "tags": ["Veg", "Breakfast", "Pakoda"], "img": "img/veg_pakoda.jpg"},
 {"id": 3, "cat": "Good Morning Break fast", "name": "शिरा | Shira", "price": "Rs. 45", "desc": "Shira.", "tags": ["Veg", "Breakfast", "Sweet"], "img": "img/shira.jpg"},
 {"id": 4, "cat": "Good Morning Break fast", "name": "उपमा | Upma", "price": "Rs. 45", "desc": "Upma.", "tags": ["Veg", "Breakfast"], "img": "img/upma.jpg"},
-{"id": 5, "cat": "Good Morning Break fast", "name": "इडली सांबर | Idli Sambar", "price": "Rs. 70", "desc": "Idli Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/idli_sambar.jpg"},
-{"id": 6, "cat": "Good Morning Break fast", "name": "वडा सांबर | Wada Sambar", "price": "Rs. 70", "desc": "Wada Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/wada_sambar.jpg"},
-{"id": 7, "cat": "Good Morning Break fast", "name": "इडली वडा सांबर | Idli Wada Sambar", "price": "Rs. 75", "desc": "Idli Wada Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/idli_wada_sambar.jpg"},
+// {"id": 5, "cat": "Good Morning Break fast", "name": "इडली सांबर | Idli Sambar", "price": "Rs. 70", "desc": "Idli Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/idli_sambar.jpg"},
+// {"id": 6, "cat": "Good Morning Break fast", "name": "वडा सांबर | Wada Sambar", "price": "Rs. 70", "desc": "Wada Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/wada_sambar.jpg"},
+// {"id": 7, "cat": "Good Morning Break fast", "name": "इडली वडा सांबर | Idli Wada Sambar", "price": "Rs. 75", "desc": "Idli Wada Sambar.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/idli_wada_sambar.jpg"},
 {"id": 8, "cat": "Good Morning Break fast", "name": "पुरी भाजी | Puri Bhaji", "price": "Rs. 65", "desc": "Puri Bhaji.", "tags": ["Veg", "Breakfast"], "img": "img/puri_bhaji.jpg"},
 {"id": 9, "cat": "Good Morning Break fast", "name": "मिसळ पाव | Missal Pav", "price": "Rs. 65", "desc": "Missal Pav.", "tags": ["Veg", "Breakfast", "Maharashtrian"], "img": "img/missal_pav.jpg"},
 {"id": 10, "cat": "Good Morning Break fast", "name": "पनीर पकोडा | Paneer Pakoda", "price": "Rs. 150", "desc": "Paneer Pakoda.", "tags": ["Veg", "Breakfast", "Paneer"], "img": "img/paneer_pakoda_bf.jpg"},
 {"id": 11, "cat": "Good Morning Break fast", "name": "ओनियन पकोडा | Onion Pakoda", "price": "Rs. 70", "desc": "Onion Pakoda.", "tags": ["Veg", "Breakfast", "Pakoda"], "img": "img/onion_pakoda.jpg"},
 {"id": 12, "cat": "Good Morning Break fast", "name": "आलु पकोडा | Alu Pakoda", "price": "Rs. 65", "desc": "Alu Pakoda.", "tags": ["Veg", "Breakfast", "Pakoda"], "img": "img/alu_pakoda.jpg"},
-{"id": 13, "cat": "Good Morning Break fast", "name": "साधा डोसा | Plain Dosa", "price": "Rs. 50", "desc": "Plain Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/plain_dosa.jpg"},
-{"id": 14, "cat": "Good Morning Break fast", "name": "मसाला डोसा | Masala Dosa", "price": "Rs. 60", "desc": "Masala Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/masala_dosa.jpg"},
-{"id": 15, "cat": "Good Morning Break fast", "name": "पेपर डोसा | Pepar Dosa", "price": "Rs. 130", "desc": "Pepar Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/pepar_dosa.jpg"},
-{"id": 16, "cat": "Good Morning Break fast", "name": "साधा उत्तप्पा | Plain Uttapa", "price": "Rs. 65", "desc": "Plain Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/plain_uttapa.jpg"},
-{"id": 17, "cat": "Good Morning Break fast", "name": "ओनियन उत्तप्पा | Onion Uttapa", "price": "Rs. 70", "desc": "Onion Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/onion_uttapa.jpg"},
-{"id": 18, "cat": "Good Morning Break fast", "name": "टमाटर उत्तप्पा | Tomato Uttapa", "price": "Rs. 70", "desc": "Tomato Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/tomato_uttapa.jpg"},
-{"id": 19, "cat": "Tea / Coffee", "name": "चाय | Tea", "price": "Rs. 20", "desc": "Hot Tea.", "tags": ["Beverage", "Tea"], "img": "img/tea_morning.jpg"},
-{"id": 20, "cat": "Tea / Coffee", "name": "कॉफी | Coffee", "price": "Rs. 25", "desc": "Hot Coffee.", "tags": ["Beverage", "Coffee"], "img": "img/coffee.jpg"},
-{"id": 21, "cat": "Tea / Coffee", "name": "हॉट मिल्क | Hot Milk", "price": "Rs. 25", "desc": "Hot Milk.", "tags": ["Beverage", "Milk"], "img": "img/hot_milk.jpg"},
+// {"id": 13, "cat": "Good Morning Break fast", "name": "साधा डोसा | Plain Dosa", "price": "Rs. 50", "desc": "Plain Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/plain_dosa.jpg"},
+// {"id": 14, "cat": "Good Morning Break fast", "name": "मसाला डोसा | Masala Dosa", "price": "Rs. 60", "desc": "Masala Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/masala_dosa.jpg"},
+// {"id": 15, "cat": "Good Morning Break fast", "name": "पेपर डोसा | Pepar Dosa", "price": "Rs. 130", "desc": "Pepar Dosa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/pepar_dosa.jpg"},
+// {"id": 16, "cat": "Good Morning Break fast", "name": "साधा उत्तप्पा | Plain Uttapa", "price": "Rs. 65", "desc": "Plain Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/plain_uttapa.jpg"},
+// {"id": 17, "cat": "Good Morning Break fast", "name": "ओनियन उत्तप्पा | Onion Uttapa", "price": "Rs. 70", "desc": "Onion Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/onion_uttapa.jpg"},
+// {"id": 18, "cat": "Good Morning Break fast", "name": "टमाटर उत्तप्पा | Tomato Uttapa", "price": "Rs. 70", "desc": "Tomato Uttapa.", "tags": ["Veg", "Breakfast", "South Indian"], "img": "img/tomato_uttapa.jpg"},
 {"id": 22, "cat": "Soup", "name": "व्हेज मंचाव सुप | Veg Munchouw Soup", "price": "Rs. 90", "desc": "Veg Munchouw Soup.", "tags": ["Veg", "Soup"], "img": "img/veg_munchouw_soup.jpg"},
 {"id": 23, "cat": "Soup", "name": "हॉट अँड सॉर सुप | Hot and Sour Soup", "price": "Rs. 90", "desc": "Hot and Sour Soup.", "tags": ["Veg", "Soup"], "img": "img/hot_and_sour_soup.jpg"},
 {"id": 24, "cat": "Soup", "name": "टोमेटो सुप | Tamata Soup", "price": "Rs. 90", "desc": "Tamata Soup.", "tags": ["Veg", "Soup", "Tomato"], "img": "img/tamata_soup.jpg"},
@@ -1448,15 +1464,6 @@ text-decoration:none;
 {"id": 34, "cat": "Chinese Special", "name": "मशरूम मंच्युरियन | Mashroom Manchuriyan", "price": "Rs. 175", "desc": "Mashroom Manchuriyan.", "tags": ["Veg", "Chinese", "Mushroom"], "img": "img/mashroom_manchuriyan.jpg"},
 {"id": 35, "cat": "Chinese Special", "name": "बेबीकॉर्न चिल्ली | Babycorn Chilly", "price": "Rs. 155", "desc": "Babycorn Chilly.", "tags": ["Veg", "Chinese", "Babycorn"], "img": "img/babycorn_chilly.jpg"},
 {"id": 36, "cat": "Chinese Special", "name": "व्हेज क्रिस्पी | Veg Crispy", "price": "Rs. 185", "desc": "Veg Crispy.", "tags": ["Veg", "Chinese", "Starter"], "img": "img/veg_crispy_chinese.jpg"},
-{"id": 37, "cat": "Papd salat", "name": "रोस्टेड पापड | Rosted Papad", "price": "Rs. 15", "desc": "Rosted Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/rosted_papad.jpg"},
-{"id": 38, "cat": "Papd salat", "name": "फ्राय पापड | Fry papad", "price": "Rs. 20", "desc": "Fry papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/fry_papad.jpg"},
-{"id": 39, "cat": "Papd salat", "name": "मसाला पापड | Masala papad", "price": "Rs. 25", "desc": "Masala papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/masala_papad_salat.jpg"},
-{"id": 40, "cat": "Papd salat", "name": "नागिली पापड | Nagili Papad", "price": "Rs. 30", "desc": "Nagili Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/nagili_papad.jpg"},
-{"id": 41, "cat": "Papd salat", "name": "नागिली रोस्टेड पापड | Nagili Rosted Papad", "price": "Rs. 25", "desc": "Nagili Rosted Papad.", "tags": ["Veg", "Papad", "Salad"], "img": "img/nagili_rosted_papad.jpg"},
-{"id": 42, "cat": "Papd salat", "name": "प्लेन कड | Plain Curd", "price": "Rs. 40", "desc": "Plain Curd.", "tags": ["Veg", "Curd", "Salad"], "img": "img/plain_curd.jpg"},
-{"id": 43, "cat": "Papd salat", "name": "मिक्स रायता | Mix Rayta", "price": "Rs. 60", "desc": "Mix Rayta.", "tags": ["Veg", "Raita", "Salad"], "img": "img/mix_rayta.jpg"},
-{"id": 44, "cat": "Papd salat", "name": "बुंदी रायता | Bundi Rayta", "price": "Rs. 65", "desc": "Bundi Rayta.", "tags": ["Veg", "Raita", "Salad"], "img": "img/bundi_rayta.jpg"},
-{"id": 45, "cat": "Papd salat", "name": "ग्रिन सलाट | Green Salad", "price": "Rs. 30", "desc": "Green Salad.", "tags": ["Veg", "Salad"], "img": "img/green_salad_papd.jpg"},
 {"id": 46, "cat": "Radhika Special Starter", "name": "शेवगा फ्राय | Sevga Fry", "price": "Rs. 160", "desc": "Sevga Fry.", "tags": ["Veg", "Starter", "Special"], "img": "img/sevga_fry.jpg"},
 {"id": 47, "cat": "Radhika Special Starter", "name": "सोयाबीन फ्राय | Soyabin Fry", "price": "Rs. 120", "desc": "Soyabin Fry.", "tags": ["Veg", "Starter", "Soyabin"], "img": "img/soyabin_fry.jpg"},
 {"id": 48, "cat": "Radhika Special Starter", "name": "मटकी फ्राय | Matki Fry", "price": "Rs. 130", "desc": "Matki Fry.", "tags": ["Veg", "Starter", "Matki"], "img": "img/matki_fry.jpg"},
@@ -1466,10 +1473,7 @@ text-decoration:none;
 {"id": 52, "cat": "Radhika Special Starter", "name": "सोयाबीन कंटकी | Soyabin Kantaki", "price": "Rs. 150", "desc": "Soyabin Kantaki.", "tags": ["Veg", "Starter", "Soyabin"], "img": "img/soyabin_kantaki.jpg"},
 {"id": 53, "cat": "Radhika Special Starter", "name": "गोबी कंटकी | Gobi Kantaki", "price": "Rs. 150", "desc": "Gobi Kantaki.", "tags": ["Veg", "Starter", "Gobi"], "img": "img/gobi_kantaki.jpg"},
 {"id": 54, "cat": "Radhika Special Starter", "name": "भेंडी सुनेरी | Bhendi Suneri", "price": "Rs. 140", "desc": "Bhendi Suneri.", "tags": ["Veg", "Starter"], "img": "img/bhendi_suneri.jpg"},
-{"id": 55, "cat": "Thand Pey", "name": "मसाला ताक | Butter Milk", "price": "Rs. 30", "desc": "Butter Milk.", "tags": ["Beverage", "Cold Drink"], "img": "img/butter_milk.jpg"},
-{"id": 56, "cat": "Thand Pey", "name": "लस्सी | Lassi", "price": "Rs. 30", "desc": "Lassi.", "tags": ["Beverage", "Cold Drink", "Sweet"], "img": "img/lassi.jpg"},
-{"id": 57, "cat": "Thand Pey", "name": "लिंबु पाणी | Lemon Water", "price": "Rs. 25", "desc": "Lemon Water.", "tags": ["Beverage", "Cold Drink"], "img": "img/lemon_water.jpg"},
-{"id": 58, "cat": "Thand Pey", "name": "लिंबु सोडा | Fresh lime Soda", "price": "Rs. 45", "desc": "Fresh lime Soda.", "tags": ["Beverage", "Cold Drink", "Soda"], "img": "img/fresh_lime_soda.jpg"},
+
 {"id": 59, "cat": "Upvas", "name": "शाबुदाना खिचडी | Shabudana Khechadi", "price": "Rs. 70", "desc": "Shabudana Khechadi.", "tags": ["Veg", "Upvas", "Fasting"], "img": "img/shabudana_khechadi.jpg"},
 {"id": 60, "cat": "Upvas", "name": "शाबुदाना वडा | Shabudana Wada", "price": "Rs. 70", "desc": "Shabudana Wada.", "tags": ["Veg", "Upvas", "Fasting"], "img": "img/shabudana_wada.jpg"},
 {"id": 61, "cat": "Upvas", "name": "फिंगर चिप्स | Finger Chips", "price": "Rs. 60", "desc": "Finger Chips.", "tags": ["Veg", "Upvas", "Snacks"], "img": "img/finger_chips_upvas.jpg"},
